@@ -23,6 +23,7 @@ gem 'jquery-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 5.0', '>= 5.0.1'
 gem 'stock_quote', '~> 3.0'
+gem 'dotenv', '~> 2.7', '>= 2.7.6'
 
 
 group :development, :test do
