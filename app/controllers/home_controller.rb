@@ -1,3 +1,6 @@
+require 'dotenv'
+Dotenv.load
+
 class HomeController < ApplicationController
   def index
     @api = StockQuote::Stock.new(api_key: ENV["API_KEY"])
